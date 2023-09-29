@@ -1,66 +1,65 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    max-width:1000px;
-    min-width:280px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container {
+  max-width: 1000px;
+  min-width: 280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-body{
-overflow-x: hidden;
-background-color: white;
+body {
+  overflow-x: hidden;
+  background-color: white;
 }
 
-header{
-    background-color: rgb(241, 239, 239);
-    width: 100%;
-    height: 60px;
+header {
+  background-color: rgb(241, 239, 239);
+  width: 100%;
+  height: 60px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    background-color: rgb(241, 239, 239);
-    padding: 10px;
+  list-style: none;
+  display: flex;
+  background-color: rgb(241, 239, 239);
+  padding: 10px;
 }
 
 nav li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 nav {
-    height:60px;
-    background-color: #fff;
+  height: 60px;
+  background-color: #fff;
 }
 
 nav .navbar-brand {
-    color: #000;
+  color: #000;
 }
 
 nav .nav-link {
-    color: #000;
+  color: #000;
 }
 
 h1 {
-    text-align: center;
-    color:rgb(56,88,56);
-    
+  text-align: center;
+  color: rgb(56, 88, 56);
 }
 
-.chavasca{
+/* .chavasca{
     display: flex;
     width: 1282px;
     height: 169px;
@@ -68,187 +67,367 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
-}
+} */
 
 .navbar-nav a {
-    color: #333;
-    font-weight: 400;
-    font-size: 16px;
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.content{
-    max-width: 100%;
-    margin: 0 auto;
-    margin-left:auto;
-    margin-right:auto;
+.content {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .shape {
-    top:15%;
-    width:100%;
-    position:absolute;
-    z-index: 1;
+  top: 15%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
 }
 
 .floresta {
-    display: flex;
-    width:50%;
-    top: 8%;
-    left: 50%;
-    position: absolute;
-    z-index: 2;
+  display: flex;
+  width: 50%;
+  top: 8%;
+  left: 50%;
+  position: absolute;
+  z-index: 2;
 }
 
-.content h2{
-    width: 50;
-    color: black;
-    font-size: 50px;
-    margin-top:10%;
-    margin-left:15%;
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: bold;
-    z-index: 3;
+.content h2 {
+  width: 50;
+  color: black;
+  font-size: 50px;
+  margin-top: 10%;
+  margin-left: 15%;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  z-index: 3;
 }
 
-.content h1{
-    width: 50%;
-    color:rgb(56,88,56);
-    font-size:90px;
-    margin-left:10%;
-    margin-top: 3%;
-    z-index: 10;
-    font-family:'Cabin Sketch', cursive;
+.content h1 {
+  width: 50%;
+  color: rgb(56, 88, 56);
+  font-size: 90px;
+  margin-left: 10%;
+  margin-top: 3%;
+  z-index: 10;
+  font-family: "Cabin Sketch", cursive;
 }
 
-.content h3{
-    color: black;
-    font-size: 28px;
-    margin-right: 45%;
-    text-align: center;
-    margin-top:2%;
-    z-index: 5;
+.content h3 {
+  color: black;
+  font-size: 28px;
+  margin-right: 45%;
+  text-align: center;
+  margin-top: 2%;
+  z-index: 5;
 }
 
-.content button{
-    font-size: 25px;
-    height: 50px;
-    width: 320px;
-    color: white;
-    margin-left: 17%;
-    background-color: rgb(56, 88, 56);
-    border-radius: 25px;
-    border: none;
-    margin-top:2%;
-    position: absolute;
-    z-index: 6;
+.content button {
+  font-size: 25px;
+  height: 50px;
+  width: 320px;
+  color: white;
+  margin-left: 17%;
+  background-color: rgb(56, 88, 56);
+  border-radius: 25px;
+  border: none;
+  margin-top: 2%;
+  position: absolute;
+  z-index: 6;
 }
 
-.content button:hover{
-    color: gray;
+.content button:hover {
+  color: gray;
 }
 
-.content1 h4{
-    margin-left: 8%;
-    margin-top: 10%;
-    color: rgb(56, 88, 56);
+.content1 h4 {
+  margin-left: 8%;
+  margin-top: 10%;
+  color: rgb(56, 88, 56);
 }
 
-.content1 h1{
-    color: black;
-    font-size: 70px;
-    margin-left: 8%;
-    font-weight: bold;
-    text-align: left;
+.content1 h1 {
+  color: black;
+  font-size: 70px;
+  margin-left: 8%;
+  font-weight: bold;
+  text-align: left;
 }
 
-.content1 h3{
-    margin-top:2%;
-    text-align: left;
-    font-size: 18px;
-    margin-left: 8%;
+.content1 h3 {
+  margin-top: 2%;
+  text-align: left;
+  font-size: 18px;
+  margin-left: 8%;
 }
 
 .content2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.elemento {
+  width: 300px;
+  height: 300px;
+  margin-top: 4%;
+  border: 2px solid green;
+  border-top-right-radius: 50px;
+  border-end-start-radius: 50px;
+}
+
+.elemento img {
+  width: 90px;
+  height: 50px;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.elemento h4 {
+  font-size: 15px;
+  color: black;
+  margin-top: 6%;
+}
+
+.elemento button {
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+  color: white;
+  margin-left: 15%;
+  margin-top: 5%;
+  background-color: rgb(56, 88, 56);
+  border-radius: 25px;
+  border: none;
+}
+
+.elemento button:hover {
+  color: gray;
+}
+
+.shape2 {
+  margin-top: 5%;
+  width: 100%;
+  position: absolute;
+}
+
+.carro {
+  position: absolute;
+  margin-top: 15%;
+  height: 85%;
+}
+
+.tag {
+  margin-left: 57%;
+  margin-top: 12%;
+  width: 40%;
+}
+
+.serviços h1 {
+  margin-left: 57%;
+  font-size: 70px;
+  margin-right: 5%;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.serviços h4 {
+  margin-left: 57%;
+  margin-right: 3%;
+  font-size: 17px;
+  margin-top: 2%;
+  text-align: start;
+}
+
+.serviços button {
+  margin-left: 57%;
+  margin-top: 2%;
+  font-size: 18px;
+  height: 55px;
+  width: 210px;
+  color: white;
+  background-color: rgb(56, 88, 56);
+  border-radius: 25px;
+  border: none;
+  position: absolute;
+  z-index: 7;
+}
+
+.serviços button:hover {
+  color: gray;
+}
+
+.fone {
+  display: flex;
+}
+
+.shape3 {
+  margin-top: 15%;
+  position: absolute;
+}
+
+.phone {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -8%;
+}
+
+.fone h1 {
+  margin-top: 22%;
+  margin-left: 8%;
+  position: absolute;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.fone h4 {
+  margin-top: 30%;
+  margin-left: 8%;
+  font-size: 18px;
+}
+
+.fone button {
+  margin-top: 42%;
+  margin-left: 8%;
+  font-size: 18px;
+  height: 55px;
+  width: 230px;
+  color: white;
+  background-color: rgb(56, 88, 56);
+  border-radius: 25px;
+  border: none;
+  position: absolute;
+}
+
+.fone button:hover {
+  color: gray;
+}
+
+.telefone {
+  background-color: rgb(138, 195, 138);
+  width: 100%;
+  height: 200px;
+  margin-top: 15%;
+}
+
+.ligacao {
+  margin-top: 2%;
+  margin-left: 13%;
+  width: 150px;
+  height: 150px;
+}
+
+.telefone h1 {
+  color: white;
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 30%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.telefone h4 {
+  color: white;
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 77%;
+  text-align: center;
+}
+
+.telefone button {
+  color: white;
+  background-color: rgb(56, 88, 56);
+  border-radius: 25px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  margin-top: 8%;
+  margin-left: 54%;
+  position: absolute;
+}
+
+.final {
+  margin-top: 0%;
+  background-color: black;
+  width: 100%;
+  height: 200px;
+}
+
+@media (max-width: 1344px) {
+  .floresta {
+    display: none;
+  }
+  .content {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-.elemento{
-    width: 300px;
-    height: 300px;
-    margin-top:4%;
-    border: 2px solid green;
-    border-top-right-radius: 50px;
-    border-end-start-radius: 50px;
-    
-}
+  .content h2 {
+    font-size: 30px;
+  }
 
-.elemento img{
-    width: 90px;
-    height: 50px;
-    margin-top:10%;
-    margin-left:10%;
-}
+  .content h1 {
+    font-size: 60px;
+    font-size: 48px;
+    margin-top: 33%;
+  }
 
-.elemento h4{
-    font-size: 15px;
-    color: black;
-    margin-top: 6%;
-}
+  .content h3 {
+    font-size: 28px;
+    margin-right: 0;
+  }
 
-.elemento button{
-    font-size: 15px;
-    height: 50px;
-    width: 200px;
-    color: white;
-    margin-left:15%;
-    margin-top: 5%;
-    background-color: rgb(56, 88, 56);
-    border-radius: 25px;
-    border: none;
-}
-
-.elemento button:hover{
-    color:gray;
-}
-
-.shape2{
-    margin-top: 5%;
-    width:100%;
-    position: absolute;
-}
-
-.carro{
-    position: absolute;
-    margin-top: 15%;
-    height: 85%;
-}
-
-.tag{
-    margin-left: 57%;
-    margin-top: 12%;
-    width: 40%;
-}
-
-.serviços h1{
-    margin-left: 57%;
-    font-size: 70px;
-    margin-right: 5%;
-    margin-top: 2%;
-    font-weight: bold;
-}
-
-.serviços h4{
-    margin-left:57% ;
-    margin-right:3%;
+  .serviços h4 {
+    margin-left: 0;
+    margin-right: 0;
     font-size: 17px;
     margin-top: 2%;
-    text-align:start;
-}
+    text-align: center;
+    color: rgb(38, 34, 34);
+  }
 
-.serviços button{
-    margin-left: 57%;
+  .content button {
+    height: 40px;
+    width: 260px;
+    position: relative;
+  }
+
+  .carro {
+    display: none;
+  }
+
+  .serviços h1 {
+    color: white;
+
+    margin-left: 0;
+    font-size: 55px;
+    margin-right: 0;
+    margin-top: 2%;
+  }
+
+  .serviços {
+    margin-top: 1rem;
+    background: linear-gradient(to bottom, #4c3605, #fff);
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .serviços button {
+    text-align: center;
+    position: relative;
+    margin-left: 0;
     margin-top: 2%;
     font-size: 18px;
     height: 55px;
@@ -257,108 +436,98 @@ h1 {
     background-color: rgb(56, 88, 56);
     border-radius: 25px;
     border: none;
-    position: absolute;
-    z-index: 7;
-}
+  }
 
-.serviços button:hover{
-    color: gray;
-}
-
-.fone{
+  .fone {
+    width: 100%;
     display: flex;
-}
-
-.shape3{
-    margin-top:15%;
-    position: absolute;
-}
-
-.phone{
-    position: absolute;
-    margin-left:10%;
-    margin-top: -8%;
-}
-
-.fone h1{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .fone h1 {
     margin-top: 22%;
-    margin-left: 8%;
-    position: absolute;
-    font-size: 70px;
+    margin-left: 0;
+    position: relative;
+    font-size: 55px;
     font-weight: bold;
-}
+  }
 
-.fone h4{
-    margin-top:30% ;
-    margin-left: 8%;
-    font-size: 18px;
-}
+  .fone .phone {
+    display: none;
+  }
+  .fone .shape3 {
+    width: 100%;
+    height: auto;
+  }
 
-.fone button{
-    margin-top: 42%;
-    margin-left:8%;
+  .fone button {
+    margin-top: 5%;
+    margin-left: 0;
     font-size: 18px;
     height: 55px;
     width: 230px;
-    color: white;
-    background-color: rgb(56, 88, 56);
-    border-radius: 25px;
-    border: none;
-    position: absolute;
-}
+    position: relative;
+  }
 
-.fone button:hover{
-    color:gray;
-}
-
-.telefone{
-    background-color: rgb(138, 195, 138);
+  .telefone {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    height:200px;
-    margin-top: 15%;
-}
+  }
 
-.ligacao{
-    margin-top: 2%;
-    margin-left: 13%;
-    width: 150px;
-    height: 150px;
-}
-
-.telefone h1{
-    color: white;
+  .ligacao {
+    margin-top: 0;
+    margin-left: 0;
+    /* display: none; */
     position: absolute;
-    margin-top: -10%;
-    margin-left: 30%;
-    font-size: 40px;
+  }
+  .telefone h1 {
+    color: white;
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 20px;
     font-weight: bold;
-}
+  }
 
-.telefone h4{
-    color:white;
-    position: absolute;
-    margin-top: -10%;
-    margin-left:77%;
+  .telefone h4 {
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
     text-align: center;
+  }
+
+  .telefone button {
+    margin-top: 0;
+    margin-left: 0;
+    position: relative;
+  }
+
+  .final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .final h1 {
+    display: none;
+  }
+
+  .final img {
+    position: relative !important;
+    margin-left: 0 !important;
+  }
 }
 
-.telefone button{
-    color: white;
-    background-color: rgb(56, 88, 56);
-    border-radius: 25px;
-    border: none;
-    width: 200px;
-    height: 50px;
-    margin-top: 8%;
-    margin-left: 54%;
-    position: absolute;
+@media (max-width: 944px) {
+  .content2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
-
-.final{
-    margin-top:0%;
-    background-color: black;
-    width: 100%;
-    height: 200px;
-}
-
-
